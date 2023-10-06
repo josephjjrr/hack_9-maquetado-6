@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    font-family: 'Norwester', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+main>img {
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    background-color: white;
+    margin-top: 22vh;
+    border-radius: 20px;
+    padding-bottom: 3rem;
+
+}
+.container>img {
+    position: absolute;
+    top: -5vh;
+    width: 30%;
+}
+.container>div:nth-child(2) {
+    margin-top: 30vh;
+    width: 80%;
+}
+h1 {
+    margin-top: 1rem;
+    padding-bottom: 1rem;    float: left;
+    width: 50%;
+    border-bottom: 1px dashed black;
+}
+h2{
+    margin-top: 1rem;
+    padding-bottom: 1rem;    float: right;
+    width: 50%;
+    border-bottom: 1px dashed black;
+    text-align: right;
+}
+.container>div:nth-child(3) {
+    width: 80%;
+}
+h3 {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    float: left;
+    width: 50%;
+}
+h4{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+h5 {
+    margin-left: 3%;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    float: left;
+    width: 47%;
+}
+h6{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.final {
+    border-bottom: 1px dashed black;
+
+}
+#abajo {
+    width: 80%;
+}
+.left {
+    width: 50%;
+    float: left;
+    text-align: left;
+    
+}
+.unico {
+    width: 50%;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+}
+.right {
+    width: 53%;
+    float: right;
+    text-align: right;
+    font-size: 15px;
+}
+#top {
+    margin-top: 3rem;
+}
